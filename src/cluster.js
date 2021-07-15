@@ -4,7 +4,7 @@ const cpus = require('os').cpus();
 const numCpus = cpus.length;
 
 if(cluster.isMaster) {
-    for(let i = 0; i < numCpus - 3; i++) {
+    for(let i = 0; i < numCpus - 1; i++) {
         cluster.fork()
     }
 } else {

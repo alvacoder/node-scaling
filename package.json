@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/alvacoder/node-scaling/issues"
   },
-  "homepage": "https://github.com/alvacoder/node-scaling#readme"
+  "homepage": "https://github.com/alvacoder/node-scaling#readme",
+  "dependencies": {
+    "loadtest": "^5.1.2"
+  }
 }
