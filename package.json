@@ -1,0 +1,27 @@
+{
+  "name": "node-scaling",
+  "version": "1.0.0",
+  "description": "Hands on NodeJS Scaling",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvacoder/node-scaling.git"
+  },
+  "keywords": [
+    "scaling",
+    "node",
+    "javascript"
+  ],
+  "author": "Idris Adeniji (alvacoder)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alvacoder/node-scaling/issues"
+  },
+  "homepage": "https://github.com/alvacoder/node-scaling#readme",
+  "dependencies": {
+    "loadtest": "^5.1.2"
+  }
+}
